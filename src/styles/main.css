@@ -1,6 +1,7 @@
 @font-face {
     src: url('../public/font/Quicksand.ttf');
     font-family: 'quicksand';
+    font-display: swap;
 }
 * {
     padding: 0;
@@ -130,7 +131,7 @@ body {
 .btn-order {
     background: #FFC93C;
     text-decoration: none;
-    padding: 8px 25px;
+    padding: 10px 25px;
     margin-top: 20px;
     border-radius: 25px;
     color: #FFF;
