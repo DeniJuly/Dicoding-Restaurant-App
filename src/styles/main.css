@@ -78,12 +78,16 @@ body {
 }
 .nav__link {
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
     width: 100%;
     padding: 10px 15px;
     color: #FFC93C;
     font-size: 15px;
     font-weight: bold;
+    min-width: 44px;
+    min-height: 44px;
 }
 .nav__link.active {
     background: rgba(255, 201, 60, 0.25);
